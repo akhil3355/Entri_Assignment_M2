@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+}
+
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.link-card {
+  flex: 0 0 30%;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
