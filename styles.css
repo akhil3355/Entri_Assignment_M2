@@ -1,25 +1,20 @@
 body {
-  padding: 20px;
-}
-
-.link-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.link-card {
-  flex: 0 0 30%;
+  background-color: #f8f9fa;
 }
 
 .card {
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  padding: 20px;
-  text-align: center;
-  transition: transform 0.3s;
+  margin-top: 20px;
+}
+.overlay-container {
+  position: relative;
+  z-index: 1;
 }
 
-.card:hover {
-  transform: scale(1.05);
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
 }
